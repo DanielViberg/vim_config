@@ -3,7 +3,6 @@ call plug#begin('~/.vim/plugged')
 Plug 'OmniSharp/omnisharp-vim' 
 Plug 'prabirshrestha/asyncomplete.vim'
 Plug 'dense-analysis/ale'
-Plug 'sirver/ultisnips'
 
 " Omnisharp linting
 let g:ale_linters = { 'cs': ['OmniSharp']}
