@@ -1,9 +1,3 @@
-call plug#begin('~/.vim/plugged') 
-
-Plug 'OmniSharp/omnisharp-vim' 
-Plug 'prabirshrestha/asyncomplete.vim'
-Plug 'dense-analysis/ale'
-
 " Omnisharp linting
 let g:ale_linters = { 'cs': ['OmniSharp']}
 
@@ -12,8 +6,6 @@ let g:OmniSharp_server_stdio = 1
 
 "Allow folding
 let b:match_words = '\s*#\s*region.*$:\s*#\s*endregion'
-
-call plug#end()
 
 augroup omnisharp_commands
     autocmd!
