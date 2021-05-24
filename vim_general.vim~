@@ -24,6 +24,3 @@ let g:airline_theme='minimalist'
 
 "Set powershell as default shell
 set shell=C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
-
-"NerdTree toggle
-map <silent> <C-l> :NERDTreeToggle<CR>
