@@ -58,4 +58,3 @@ endif
 set backupdir=~/.vim/backup//
 set directory=~/.vim/swp//
 set undodir=~/.vim/undo//
-
