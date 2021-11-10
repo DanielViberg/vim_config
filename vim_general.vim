@@ -34,7 +34,7 @@ set t_Co=256
 colorscheme codedark
 
 "Airliner
-let g:airline_theme='minimalist'
+let g:airline_theme="deus"
 
 "Set powershell as default shell
 set shell=C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
