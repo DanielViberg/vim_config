@@ -7,13 +7,13 @@ set shiftwidth=4
 set expandtab
 
 "Auto complete brackets
-inoremap " ""<left>
-inoremap ' ''<left>
-inoremap ( ()<left>
-inoremap [ []<left>
-inoremap { {}<left>
-inoremap {<CR> {<CR>}<ESC>O
-inoremap {;<CR> {<CR>};<ESC>O
+""inoremap " ""<left>
+""inoremap ' ''<left>
+""inoremap ( ()<left>
+""inoremap [ []<left>
+""inoremap { {}<left>
+""inoremap {<CR> {<CR>}<ESC>O
+""inoremap {;<CR> {<CR>};<ESC>O
 
 "Use tab as in visual studio 
 inoremap <silent><expr> <TAB>
@@ -30,14 +30,14 @@ endfunction
 let g:coc_snippet_next = '<tab>'
 
 "Vim-Code-Dark
-set t_Co=256
 colorscheme codedark
+set termguicolors 
 
 "Airliner
 let g:airline_theme="deus"
 
 "Set powershell as default shell
-set shell=C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+set shell=pwsh.exe
 
 "NerdTree toggle
 map <silent> <C-l> :NERDTreeToggle<CR>

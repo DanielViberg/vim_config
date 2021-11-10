@@ -13,5 +13,8 @@ source $HOME/vim_config/vim_plugs.vim
 "My Default vim settings
 source $HOME/vim_config/vim_general.vim
 
+"Default vim airline settings
+source $HOME/vim_config/vim_airLine.vim
+
 "C sharp related settings
 source $HOME/vim_config/vim_Csharp.vim
