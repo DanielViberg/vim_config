@@ -36,9 +36,6 @@ set termguicolors
 "Airliner
 let g:airline_theme="deus"
 
-"Set powershell as default shell
-set shell=pwsh.exe
-
 "NerdTree toggle
 map <silent> <C-l> :NERDTreeToggle<CR>
 
